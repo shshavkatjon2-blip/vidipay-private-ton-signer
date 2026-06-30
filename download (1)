@@ -1,5 +1,10 @@
-node_modules/
+node_modules
+package-lock.json
+npm-debug.log
 .env
-.env.local
+.env.*
+private-keys
 ton-signer-keys/*.json
-*.log
+ton-signer-keys/*.key
+ton-signer-keys/*.mnemonic
+*.zip
