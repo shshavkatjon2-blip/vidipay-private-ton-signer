@@ -1,0 +1,5 @@
+node_modules/
+.env
+.env.local
+ton-signer-keys/*.json
+*.log

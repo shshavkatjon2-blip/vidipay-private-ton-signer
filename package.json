@@ -1,0 +1,31 @@
+{
+  "name": "vidipay-ton-remote-signer",
+  "version": "1.0.0",
+  "private": true,
+  "main": "server.js",
+  "engines": {
+    "node": ">=20 <25"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "check": "node --check server.js"
+  },
+  "dependencies": {
+    "@orbs-network/ton-access": "^2.3.3",
+    "@ton/core": "^0.63.1",
+    "@ton/crypto-primitives": "2.1.0",
+    "@ton/crypto": "^3.3.0",
+    "@ton/ton": "^16.3.0",
+    "axios": "^1.15.0",
+    "dataloader": "^2.2.3",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.0",
+    "follow-redirects": "^1.16.0",
+    "form-data": "^4.0.5",
+    "https-proxy-agent": "^5.0.1",
+    "jssha": "3.2.0",
+    "proxy-from-env": "^2.1.0",
+    "tweetnacl": "1.0.3",
+    "zod": "^3.25.76"
+  }
+}
